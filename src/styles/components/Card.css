@@ -1,0 +1,27 @@
+.card {
+  width: 100%;
+  height: 255px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.card_img {
+  width: inherit;
+  height: inherit;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: inherit;
+}
+.card_title {
+  position: absolute;
+  bottom: 0;
+  margin: 15px 20px;
+  box-sizing: inherit;
+}
+.card_cont {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  border-radius: inherit;
+}/*# sourceMappingURL=Card.css.map */
